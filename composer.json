@@ -1,0 +1,21 @@
+{
+    "name": "jamguozhijun/yii2-xmlparser",
+    "description": "Yii2 XML Request Parser",
+    "keywords": ["yii", "yii2", "xml", "request", "parse", "parser"],
+    "type": "library",
+    "homepage": "https://github.com/jamguozhijun/yii2-xmlparser",
+    "require": {
+        "yiisoft/yii2": "^2.0.0"
+    },
+    "require-dev": {},
+    "license": "BSD-3-Clause",
+    "authors": [{
+        "name": "James GUO Zhijun",
+        "email": "jamguo@gmail.com"
+    }],
+    "autoload": {
+        "psr-4": {
+            "jamguozhijun\\yii\\web\\": "src/"
+        }
+    }
+}

@@ -79,8 +79,10 @@ class XmlParser implements RequestParserInterface
 
         if ($parameters === false) {
             if ($this->throwException) {
-                $e = libxml_get_last_error();
-                throw new BadRequestHttpException('Invalid XML data in request body: ' . $e->message);
+                throw new BadRequestHttpException(
+                    'Invalid XML data in request body: '
+                    . (empty($rawBody) ? 'The body is empty' : libxml_get_last_error()->message)
+                );
             }
             return [];
         }

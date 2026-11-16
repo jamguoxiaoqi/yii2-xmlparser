@@ -1,7 +1,7 @@
 <?php
 
 /**
- * @link https://github.com/jamguozhijun/yii2-xmlparser
+ * @link https://github.com/jamguoxiaoqi/yii2-xmlparser
  * @license BSD-3-Clause
  */
 

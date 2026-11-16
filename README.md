@@ -14,13 +14,13 @@ Installation
 The preferred way to install this extension is through [composer](http://getcomposer.org/download/):
 
 ```
-composer require --prefer-dist jamguozhijun/yii2-xmlparser
+composer require --prefer-dist jamguoxiaoqi/yii2-xmlparser
 ```
 
 or
 
 ```
-php composer.phar require --prefer-dist jamguozhijun/yii2-xmlparser
+php composer.phar require --prefer-dist jamguoxiaoqi/yii2-xmlparser
 ```
 
 Usage
@@ -46,11 +46,12 @@ return [
 and then:
 
 ```php
-Yii::$app->request->post();
+$posts = Yii::$app->request->post();
+$post_foo = Yii::$app->request->post('foo');
 ```
 
 
 License
 -------
 
-![License](https://img.shields.io/github/license/jamguozhijun/yii2-xmlparser)
+![License](https://img.shields.io/github/license/jamguoxiaoqi/yii2-xmlparser)

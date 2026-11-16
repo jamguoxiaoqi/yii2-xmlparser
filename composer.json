@@ -1,5 +1,5 @@
 {
-    "name": "jamguozhijun/yii2-xmlparser",
+    "name": "jamguoxiaoqi/yii2-xmlparser",
     "type": "library",
     "description": "Yii2 XML Request Parser",
     "keywords": [
@@ -11,7 +11,7 @@
         "parse",
         "parser"
     ],
-    "homepage": "https://github.com/jamguozhijun/yii2-xmlparser",
+    "homepage": "https://github.com/jamguoxiaoqi/yii2-xmlparser",
     "license": "BSD-3-Clause",
     "authors": [
         {

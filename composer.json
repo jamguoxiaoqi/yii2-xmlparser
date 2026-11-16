@@ -20,12 +20,13 @@
         }
     ],
     "require": {
+        "ext-simplexml": "*",
         "yiisoft/yii2": "^2.0.0"
     },
     "require-dev": {},
     "autoload": {
         "psr-4": {
-            "jamguozhijun\\yii\\web\\": "src/"
+            "jamguoxiaoqi\\yii\\web\\": "src/"
         }
     }
 }

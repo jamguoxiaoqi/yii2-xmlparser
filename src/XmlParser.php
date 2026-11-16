@@ -5,7 +5,7 @@
  * @license BSD-3-Clause
  */
 
-namespace jamguozhijun\yii\web;
+namespace jamguoxiaoqi\yii\web;
 
 use yii\web\BadRequestHttpException;
 use yii\web\RequestParserInterface;
@@ -18,8 +18,8 @@ use yii\web\RequestParserInterface;
  * ```php
  * 'request' => [
  *     'parsers' => [
- *         'application/xml' => 'jamguozhijun\yii\web\XmlParser',
- *         'text/xml' => 'jamguozhijun\yii\web\XmlParser',
+ *         'application/xml' => 'jamguoxiaoqi\yii\web\XmlParser',
+ *         'text/xml' => 'jamguoxiaoqi\yii\web\XmlParser',
  *     ]
  * ]
  * ```

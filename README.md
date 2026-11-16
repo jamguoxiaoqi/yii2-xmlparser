@@ -35,8 +35,8 @@ return [
     'components' => [
         'request' => [
             'parsers' => [
-                'application/xml' => 'jamguozhijun\yii\web\XmlParser',
-                'text/xml' => 'jamguozhijun\yii\web\XmlParser',
+                'application/xml' => 'jamguoxiaoqi\yii\web\XmlParser',
+                'text/xml' => 'jamguoxiaoqi\yii\web\XmlParser',
             ]
         ],
     ],
